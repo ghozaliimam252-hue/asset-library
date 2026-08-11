@@ -1,0 +1,710 @@
+{
+  "library_name": "Asset Library Media Pembelajaran",
+  "school": "SMAN 20 Konawe Selatan",
+  "repository": "https://github.com/ghozaliimam252-hue/asset-library",
+  "base_url": "https://ghozaliimam252-hue.github.io/asset-library/",
+  "generated_at": "2026-08-11T04:06:59.789150+00:00",
+  "total_assets": 100,
+  "assets": [
+    {
+      "id": "01_Buku",
+      "name": "01 Buku",
+      "file": "01_Buku.png",
+      "category": "Objek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/01_Buku.png"
+    },
+    {
+      "id": "01_Guru",
+      "name": "01 Guru",
+      "file": "01_Guru.png",
+      "category": "Karakter",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/01_Guru.png"
+    },
+    {
+      "id": "01_Menu_Utama",
+      "name": "01 Menu Utama",
+      "file": "01_Menu_Utama.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/01_Menu_Utama.png"
+    },
+    {
+      "id": "01_Sekolah",
+      "name": "01 Sekolah",
+      "file": "01_Sekolah.png",
+      "category": "Objek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/01_Sekolah.png"
+    },
+    {
+      "id": "01_Sel_Hewan",
+      "name": "01 Sel Hewan",
+      "file": "01_Sel_Hewan.png",
+      "category": "Biologi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/01_Sel_Hewan.png"
+    },
+    {
+      "id": "01_Semak",
+      "name": "01 Semak",
+      "file": "01_Semak.png",
+      "category": "Latar & Alam",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/01_Semak.png"
+    },
+    {
+      "id": "02_Benar",
+      "name": "02 Benar",
+      "file": "02_Benar.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/02_Benar.png"
+    },
+    {
+      "id": "02_Buku_Tumpukan",
+      "name": "02 Buku Tumpukan",
+      "file": "02_Buku_Tumpukan.png",
+      "category": "Objek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/02_Buku_Tumpukan.png"
+    },
+    {
+      "id": "02_Pohon",
+      "name": "02 Pohon",
+      "file": "02_Pohon.png",
+      "category": "Latar & Alam",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/02_Pohon.png"
+    },
+    {
+      "id": "02_Ruang_Kelas",
+      "name": "02 Ruang Kelas",
+      "file": "02_Ruang_Kelas.png",
+      "category": "Objek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/02_Ruang_Kelas.png"
+    },
+    {
+      "id": "02_Sel_Tumbuhan",
+      "name": "02 Sel Tumbuhan",
+      "file": "02_Sel_Tumbuhan.png",
+      "category": "Biologi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/02_Sel_Tumbuhan.png"
+    },
+    {
+      "id": "02_Siswa_Laki",
+      "name": "02 Siswa Laki",
+      "file": "02_Siswa_Laki.png",
+      "category": "Karakter",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/02_Siswa_Laki.png"
+    },
+    {
+      "id": "03_Globe",
+      "name": "03 Globe",
+      "file": "03_Globe.png",
+      "category": "Latar & Alam",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/03_Globe.png"
+    },
+    {
+      "id": "03_Lab_Sains",
+      "name": "03 Lab Sains",
+      "file": "03_Lab_Sains.png",
+      "category": "Laboratorium",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/03_Lab_Sains.png"
+    },
+    {
+      "id": "03_Mitokondria",
+      "name": "03 Mitokondria",
+      "file": "03_Mitokondria.png",
+      "category": "Biologi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/03_Mitokondria.png"
+    },
+    {
+      "id": "03_Rumput",
+      "name": "03 Rumput",
+      "file": "03_Rumput.png",
+      "category": "Latar & Alam",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/03_Rumput.png"
+    },
+    {
+      "id": "03_Salah",
+      "name": "03 Salah",
+      "file": "03_Salah.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/03_Salah.png"
+    },
+    {
+      "id": "03_Siswi_Perempuan",
+      "name": "03 Siswi Perempuan",
+      "file": "03_Siswi_Perempuan.png",
+      "category": "Karakter",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/03_Siswi_Perempuan.png"
+    },
+    {
+      "id": "04_Home",
+      "name": "04 Home",
+      "file": "04_Home.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/04_Home.png"
+    },
+    {
+      "id": "04_Laptop",
+      "name": "04 Laptop",
+      "file": "04_Laptop.png",
+      "category": "Objek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/04_Laptop.png"
+    },
+    {
+      "id": "04_Ribosom",
+      "name": "04 Ribosom",
+      "file": "04_Ribosom.png",
+      "category": "Biologi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/04_Ribosom.png"
+    },
+    {
+      "id": "04_Robot",
+      "name": "04 Robot",
+      "file": "04_Robot.png",
+      "category": "Lainnya",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/04_Robot.png"
+    },
+    {
+      "id": "04_Ruang_Simulasi",
+      "name": "04 Ruang Simulasi",
+      "file": "04_Ruang_Simulasi.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/04_Ruang_Simulasi.png"
+    },
+    {
+      "id": "05_Materi",
+      "name": "05 Materi",
+      "file": "05_Materi.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/05_Materi.png"
+    },
+    {
+      "id": "05_Pemandangan_Alam",
+      "name": "05 Pemandangan Alam",
+      "file": "05_Pemandangan_Alam.png",
+      "category": "Latar & Alam",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/05_Pemandangan_Alam.png"
+    },
+    {
+      "id": "05_RE_Kasar",
+      "name": "05 RE Kasar",
+      "file": "05_RE_Kasar.png",
+      "category": "Lainnya",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/05_RE_Kasar.png"
+    },
+    {
+      "id": "05_Siswa_Senyum",
+      "name": "05 Siswa Senyum",
+      "file": "05_Siswa_Senyum.png",
+      "category": "Karakter",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/05_Siswa_Senyum.png"
+    },
+    {
+      "id": "05_Tas",
+      "name": "05 Tas",
+      "file": "05_Tas.png",
+      "category": "Objek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/05_Tas.png"
+    },
+    {
+      "id": "06_Papan_Tulis",
+      "name": "06 Papan Tulis",
+      "file": "06_Papan_Tulis.png",
+      "category": "Objek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/06_Papan_Tulis.png"
+    },
+    {
+      "id": "06_RE_Halus",
+      "name": "06 RE Halus",
+      "file": "06_RE_Halus.png",
+      "category": "Lainnya",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/06_RE_Halus.png"
+    },
+    {
+      "id": "06_Simulasi",
+      "name": "06 Simulasi",
+      "file": "06_Simulasi.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/06_Simulasi.png"
+    },
+    {
+      "id": "06_Siswa_Senyum_Mata",
+      "name": "06 Siswa Senyum Mata",
+      "file": "06_Siswa_Senyum_Mata.png",
+      "category": "Karakter",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/06_Siswa_Senyum_Mata.png"
+    },
+    {
+      "id": "07_Badan_Golgi",
+      "name": "07 Badan Golgi",
+      "file": "07_Badan_Golgi.png",
+      "category": "Biologi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/07_Badan_Golgi.png"
+    },
+    {
+      "id": "07_Papan_Tulis_Putih",
+      "name": "07 Papan Tulis Putih",
+      "file": "07_Papan_Tulis_Putih.png",
+      "category": "Objek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/07_Papan_Tulis_Putih.png"
+    },
+    {
+      "id": "07_Siswa_Terpikir",
+      "name": "07 Siswa Terpikir",
+      "file": "07_Siswa_Terpikir.png",
+      "category": "Karakter",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/07_Siswa_Terpikir.png"
+    },
+    {
+      "id": "07_Tujuan",
+      "name": "07 Tujuan",
+      "file": "07_Tujuan.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/07_Tujuan.png"
+    },
+    {
+      "id": "08_Eksplorasi",
+      "name": "08 Eksplorasi",
+      "file": "08_Eksplorasi.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/08_Eksplorasi.png"
+    },
+    {
+      "id": "08_Lisosom",
+      "name": "08 Lisosom",
+      "file": "08_Lisosom.png",
+      "category": "Biologi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/08_Lisosom.png"
+    },
+    {
+      "id": "08_Notebook",
+      "name": "08 Notebook",
+      "file": "08_Notebook.png",
+      "category": "Objek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/08_Notebook.png"
+    },
+    {
+      "id": "08_Siswa_Bingung",
+      "name": "08 Siswa Bingung",
+      "file": "08_Siswa_Bingung.png",
+      "category": "Karakter",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/08_Siswa_Bingung.png"
+    },
+    {
+      "id": "09_Evaluasi",
+      "name": "09 Evaluasi",
+      "file": "09_Evaluasi.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/09_Evaluasi.png"
+    },
+    {
+      "id": "09_Pena",
+      "name": "09 Pena",
+      "file": "09_Pena.png",
+      "category": "Objek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/09_Pena.png"
+    },
+    {
+      "id": "09_Peroksisom",
+      "name": "09 Peroksisom",
+      "file": "09_Peroksisom.png",
+      "category": "Biologi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/09_Peroksisom.png"
+    },
+    {
+      "id": "09_Siswi_Senyum",
+      "name": "09 Siswi Senyum",
+      "file": "09_Siswi_Senyum.png",
+      "category": "Karakter",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/09_Siswi_Senyum.png"
+    },
+    {
+      "id": "10_Catatan_Kertas",
+      "name": "10 Catatan Kertas",
+      "file": "10_Catatan_Kertas.png",
+      "category": "Objek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/10_Catatan_Kertas.png"
+    },
+    {
+      "id": "10_Profil",
+      "name": "10 Profil",
+      "file": "10_Profil.png",
+      "category": "Lainnya",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/10_Profil.png"
+    },
+    {
+      "id": "10_Siswi_Senyum_Mata",
+      "name": "10 Siswi Senyum Mata",
+      "file": "10_Siswi_Senyum_Mata.png",
+      "category": "Karakter",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/10_Siswi_Senyum_Mata.png"
+    },
+    {
+      "id": "10_Vakuola",
+      "name": "10 Vakuola",
+      "file": "10_Vakuola.png",
+      "category": "Biologi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/10_Vakuola.png"
+    },
+    {
+      "id": "11_Awan",
+      "name": "11 Awan",
+      "file": "11_Awan.png",
+      "category": "Latar & Alam",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/11_Awan.png"
+    },
+    {
+      "id": "11_Mulai",
+      "name": "11 Mulai",
+      "file": "11_Mulai.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/11_Mulai.png"
+    },
+    {
+      "id": "11_Siswi_Berpikir",
+      "name": "11 Siswi Berpikir",
+      "file": "11_Siswi_Berpikir.png",
+      "category": "Karakter",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/11_Siswi_Berpikir.png"
+    },
+    {
+      "id": "11_Sitoskeleton",
+      "name": "11 Sitoskeleton",
+      "file": "11_Sitoskeleton.png",
+      "category": "Biologi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/11_Sitoskeleton.png"
+    },
+    {
+      "id": "12_Matahari",
+      "name": "12 Matahari",
+      "file": "12_Matahari.png",
+      "category": "Latar & Alam",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/12_Matahari.png"
+    },
+    {
+      "id": "12_Molekul",
+      "name": "12 Molekul",
+      "file": "12_Molekul.png",
+      "category": "Biologi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/12_Molekul.png"
+    },
+    {
+      "id": "12_Selesai",
+      "name": "12 Selesai",
+      "file": "12_Selesai.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/12_Selesai.png"
+    },
+    {
+      "id": "12_Siswi_Terkejut",
+      "name": "12 Siswi Terkejut",
+      "file": "12_Siswi_Terkejut.png",
+      "category": "Karakter",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/12_Siswi_Terkejut.png"
+    },
+    {
+      "id": "13_Batu",
+      "name": "13 Batu",
+      "file": "13_Batu.png",
+      "category": "Latar & Alam",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/13_Batu.png"
+    },
+    {
+      "id": "13_DNA_Heliks",
+      "name": "13 DNA Heliks",
+      "file": "13_DNA_Heliks.png",
+      "category": "Biologi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/13_DNA_Heliks.png"
+    },
+    {
+      "id": "13_Panah_Kiri",
+      "name": "13 Panah Kiri",
+      "file": "13_Panah_Kiri.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/13_Panah_Kiri.png"
+    },
+    {
+      "id": "13_Siswa_Belakang",
+      "name": "13 Siswa Belakang",
+      "file": "13_Siswa_Belakang.png",
+      "category": "Karakter",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/13_Siswa_Belakang.png"
+    },
+    {
+      "id": "14_Mikroskop",
+      "name": "14 Mikroskop",
+      "file": "14_Mikroskop.png",
+      "category": "Laboratorium",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/14_Mikroskop.png"
+    },
+    {
+      "id": "14_Panah_Kanan",
+      "name": "14 Panah Kanan",
+      "file": "14_Panah_Kanan.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/14_Panah_Kanan.png"
+    },
+    {
+      "id": "14_Siswi_Belakang",
+      "name": "14 Siswi Belakang",
+      "file": "14_Siswi_Belakang.png",
+      "category": "Karakter",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/14_Siswi_Belakang.png"
+    },
+    {
+      "id": "15_Guru_Belakang",
+      "name": "15 Guru Belakang",
+      "file": "15_Guru_Belakang.png",
+      "category": "Karakter",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/15_Guru_Belakang.png"
+    },
+    {
+      "id": "15_Icon_Peringatan",
+      "name": "15 Icon Peringatan",
+      "file": "15_Icon_Peringatan.png",
+      "category": "Ikon & Efek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/15_Icon_Peringatan.png"
+    },
+    {
+      "id": "15_Tabung_Reaksi",
+      "name": "15 Tabung Reaksi",
+      "file": "15_Tabung_Reaksi.png",
+      "category": "Laboratorium",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/15_Tabung_Reaksi.png"
+    },
+    {
+      "id": "16_Icon_Tanya",
+      "name": "16 Icon Tanya",
+      "file": "16_Icon_Tanya.png",
+      "category": "Ikon & Efek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/16_Icon_Tanya.png"
+    },
+    {
+      "id": "16_Labu_Erlenmeyer_Biru",
+      "name": "16 Labu Erlenmeyer Biru",
+      "file": "16_Labu_Erlenmeyer_Biru.png",
+      "category": "Laboratorium",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/16_Labu_Erlenmeyer_Biru.png"
+    },
+    {
+      "id": "17_Icon_Info",
+      "name": "17 Icon Info",
+      "file": "17_Icon_Info.png",
+      "category": "Ikon & Efek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/17_Icon_Info.png"
+    },
+    {
+      "id": "17_Labu_Erlenmeyer_Merah",
+      "name": "17 Labu Erlenmeyer Merah",
+      "file": "17_Labu_Erlenmeyer_Merah.png",
+      "category": "Laboratorium",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/17_Labu_Erlenmeyer_Merah.png"
+    },
+    {
+      "id": "18_Cawan_Petri",
+      "name": "18 Cawan Petri",
+      "file": "18_Cawan_Petri.png",
+      "category": "Laboratorium",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/18_Cawan_Petri.png"
+    },
+    {
+      "id": "18_Icon_Chat",
+      "name": "18 Icon Chat",
+      "file": "18_Icon_Chat.png",
+      "category": "Ikon & Efek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/18_Icon_Chat.png"
+    },
+    {
+      "id": "19_Clipboard",
+      "name": "19 Clipboard",
+      "file": "19_Clipboard.png",
+      "category": "Objek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/19_Clipboard.png"
+    },
+    {
+      "id": "19_Icon_Like",
+      "name": "19 Icon Like",
+      "file": "19_Icon_Like.png",
+      "category": "Ikon & Efek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/19_Icon_Like.png"
+    },
+    {
+      "id": "20_Bintang_Emas",
+      "name": "20 Bintang Emas",
+      "file": "20_Bintang_Emas.png",
+      "category": "Ikon & Efek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/20_Bintang_Emas.png"
+    },
+    {
+      "id": "20_Pensil",
+      "name": "20 Pensil",
+      "file": "20_Pensil.png",
+      "category": "Objek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/20_Pensil.png"
+    },
+    {
+      "id": "21_Bintang_Abu",
+      "name": "21 Bintang Abu",
+      "file": "21_Bintang_Abu.png",
+      "category": "Ikon & Efek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/21_Bintang_Abu.png"
+    },
+    {
+      "id": "21_Tanaman",
+      "name": "21 Tanaman",
+      "file": "21_Tanaman.png",
+      "category": "Latar & Alam",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/21_Tanaman.png"
+    },
+    {
+      "id": "22_Daun",
+      "name": "22 Daun",
+      "file": "22_Daun.png",
+      "category": "Latar & Alam",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/22_Daun.png"
+    },
+    {
+      "id": "22_Lampu_Ide",
+      "name": "22 Lampu Ide",
+      "file": "22_Lampu_Ide.png",
+      "category": "Ikon & Efek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/22_Lampu_Ide.png"
+    },
+    {
+      "id": "23_Bunsen",
+      "name": "23 Bunsen",
+      "file": "23_Bunsen.png",
+      "category": "Laboratorium",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/23_Bunsen.png"
+    },
+    {
+      "id": "23_Kursor_Biru",
+      "name": "23 Kursor Biru",
+      "file": "23_Kursor_Biru.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/23_Kursor_Biru.png"
+    },
+    {
+      "id": "24_Magnet",
+      "name": "24 Magnet",
+      "file": "24_Magnet.png",
+      "category": "Ikon & Efek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/24_Magnet.png"
+    },
+    {
+      "id": "24_Tangan_Klik",
+      "name": "24 Tangan Klik",
+      "file": "24_Tangan_Klik.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/24_Tangan_Klik.png"
+    },
+    {
+      "id": "25_Atom",
+      "name": "25 Atom",
+      "file": "25_Atom.png",
+      "category": "Biologi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/25_Atom.png"
+    },
+    {
+      "id": "25_Panah_Kursor",
+      "name": "25 Panah Kursor",
+      "file": "25_Panah_Kursor.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/25_Panah_Kursor.png"
+    },
+    {
+      "id": "26_Gen",
+      "name": "26 Gen",
+      "file": "26_Gen.png",
+      "category": "Biologi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/26_Gen.png"
+    },
+    {
+      "id": "26_Play",
+      "name": "26 Play",
+      "file": "26_Play.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/26_Play.png"
+    },
+    {
+      "id": "27_Pause",
+      "name": "27 Pause",
+      "file": "27_Pause.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/27_Pause.png"
+    },
+    {
+      "id": "28_Stop",
+      "name": "28 Stop",
+      "file": "28_Stop.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/28_Stop.png"
+    },
+    {
+      "id": "29_Rewind",
+      "name": "29 Rewind",
+      "file": "29_Rewind.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/29_Rewind.png"
+    },
+    {
+      "id": "30_Forward",
+      "name": "30 Forward",
+      "file": "30_Forward.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/30_Forward.png"
+    },
+    {
+      "id": "31_Previous",
+      "name": "31 Previous",
+      "file": "31_Previous.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/31_Previous.png"
+    },
+    {
+      "id": "32_Next",
+      "name": "32 Next",
+      "file": "32_Next.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/32_Next.png"
+    },
+    {
+      "id": "33_Volume_On",
+      "name": "33 Volume On",
+      "file": "33_Volume_On.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/33_Volume_On.png"
+    },
+    {
+      "id": "34_Volume_Off",
+      "name": "34 Volume Off",
+      "file": "34_Volume_Off.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/34_Volume_Off.png"
+    },
+    {
+      "id": "35_Loading_1",
+      "name": "35 Loading 1",
+      "file": "35_Loading_1.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/35_Loading_1.png"
+    },
+    {
+      "id": "36_Loading_2",
+      "name": "36 Loading 2",
+      "file": "36_Loading_2.png",
+      "category": "Navigasi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/36_Loading_2.png"
+    },
+    {
+      "id": "37_Efek_Bintang",
+      "name": "37 Efek Bintang",
+      "file": "37_Efek_Bintang.png",
+      "category": "Ikon & Efek",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/37_Efek_Bintang.png"
+    },
+    {
+      "id": "38_Icon_DNA",
+      "name": "38 Icon DNA",
+      "file": "38_Icon_DNA.png",
+      "category": "Biologi",
+      "url": "https://ghozaliimam252-hue.github.io/asset-library/38_Icon_DNA.png"
+    }
+  ]
+}

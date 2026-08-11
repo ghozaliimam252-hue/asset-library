@@ -1,16 +1,114 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <title>Asset Library Media Pembelajaran</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Asset Library Media Pembelajaran</title>
+<style>
+:root{--bg:#f5f7fb;--card:#fff;--text:#182230;--muted:#667085;--line:#e5e7eb;--accent:#2563eb}
+*{box-sizing:border-box} body{margin:0;font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--text)}
+header{background:linear-gradient(135deg,#111827,#334155);color:#fff;padding:38px 20px 30px;text-align:center}
+header h1{margin:0;font-size:clamp(28px,4vw,44px)} header p{margin:10px 0 0;opacity:.85}
+.wrap{max-width:1400px;margin:auto;padding:24px}
+.toolbar{position:sticky;top:0;z-index:5;background:rgba(245,247,251,.94);backdrop-filter:blur(8px);padding:14px 0}
+.search{display:flex;gap:10px}.search input{flex:1;padding:14px 16px;border:1px solid var(--line);border-radius:12px;font-size:16px;outline:none}
+.search input:focus{border-color:var(--accent)} .stats{display:flex;justify-content:space-between;gap:10px;margin:12px 0;color:var(--muted);font-size:14px}
+.filters{display:flex;gap:8px;flex-wrap:wrap}.filter{border:1px solid var(--line);background:#fff;padding:9px 13px;border-radius:999px;cursor:pointer}
+.filter.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 3px 12px rgba(16,24,40,.06)}
+.preview{height:190px;background:repeating-conic-gradient(#f1f5f9 0 25%,#fff 0 50%) 50%/20px 20px;display:flex;align-items:center;justify-content:center;padding:14px}
+.preview img{max-width:100%;max-height:100%;object-fit:contain}.body{padding:14px}.name{font-weight:700;line-height:1.3}.cat{display:inline-block;margin-top:7px;font-size:12px;color:#475467;background:#f2f4f7;padding:4px 8px;border-radius:999px}
+.url{margin-top:10px;font-size:11px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}.btn{border:1px solid var(--line);background:#fff;border-radius:9px;padding:9px;cursor:pointer;font-size:12px}.btn.primary{background:#111827;color:#fff;border-color:#111827}
+.empty{text-align:center;padding:60px;color:var(--muted);grid-column:1/-1}
+footer{text-align:center;color:var(--muted);padding:40px 20px}
+@media(max-width:600px){.wrap{padding:14px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.preview{height:150px}.actions{grid-template-columns:1fr}.stats{display:block}}
+</style>
 </head>
 <body>
+<header>
+  <h1>📚 Asset Library Media Pembelajaran</h1>
+  <p>SMAN 20 Konawe Selatan • Pusat aset untuk media pembelajaran interaktif</p>
+</header>
+<div class="wrap">
+  <div class="toolbar">
+    <div class="search">
+      <input id="search" type="search" placeholder="🔎 Cari aset, misalnya: DNA, Guru, Mikroskop...">
+    </div>
+    <div class="stats"><span id="count">Memuat aset...</span><span>Semua aset dapat dipanggil melalui URL langsung.</span></div>
+    <div id="filters" class="filters"></div>
+  </div>
+  <div id="grid" class="grid"></div>
+</div>
+<footer>
+  Asset Library • GitHub Pages • <a href="assets.json">assets.json</a>
+</footer>
 
-    <h1>Asset Library Media Pembelajaran</h1>
+<script>
+const owner="ghozaliimam252-hue", repo="asset-library", branch="main";
+const base="https://ghozaliimam252-hue.github.io/asset-library/";
+let assets=[], active="Semua";
 
-    <p>Hosting aset berhasil!</p>
+const knownCategories=["Semua","Karakter","Biologi","Laboratorium","Navigasi","Objek","Latar & Alam","Ikon & Efek","Lainnya"];
 
-    <p>SMAN 20 Konawe Selatan</p>
+function category(name){
+  const n=name.toLowerCase();
+  if(/guru|siswa|siswi/.test(n)) return "Karakter";
+  if(/sel_|mitokondria|ribosom|badan_golgi|lisosom|peroksisom|vakuola|sitoskeleton|dna|atom|molekul|gen/.test(n)) return "Biologi";
+  if(/mikroskop|tabung|erlenmeyer|cawan|bunsen|lab_/.test(n)) return "Laboratorium";
+  if(/home|menu|mulai|selesai|materi|tujuan|eksplorasi|evaluasi|simulasi|benar|salah|play|pause|stop|rewind|forward|previous|next|volume|loading|panah|kursor|tangan_klik/.test(n)) return "Navigasi";
+  if(/papan_tulis|ruang_kelas|sekolah|ruang_simulasi|laptop|buku|notebook|clipboard|pena|pensil|tas|catatan/.test(n)) return "Objek";
+  if(/awan|pohon|rumput|semak|pemandangan|batu|tanaman|daun|matahari|globe/.test(n)) return "Latar & Alam";
+  if(/icon_|bintang|magnet|lampu_ide|efek/.test(n)) return "Ikon & Efek";
+  return "Lainnya";
+}
 
+async function load(){
+  try{
+    // GitHub Contents API membaca file/folder publik tanpa perlu token.
+    const r=await fetch(`https://api.github.com/repos/${owner}/${repo}/git/trees/${branch}?recursive=1`);
+    if(!r.ok) throw new Error("API");
+    const data=await r.json();
+    assets=data.tree.filter(x=>x.type==="blob" && /\.(png|jpg|jpeg|webp|gif|svg)$/i.test(x.path))
+      .map(x=>({file:x.path,name:x.path.replace(/\.[^.]+$/,"").replaceAll("_"," "),category:category(x.path),url:base+x.path}));
+    renderFilters(); render();
+  }catch(e){
+    // Fallback: gunakan manifest statis jika API GitHub gagal.
+    const r=await fetch("assets.json"); const data=await r.json();
+    assets=data.assets; renderFilters(); render();
+  }
+}
+function renderFilters(){
+  const cats=[...new Set([...knownCategories,...assets.map(a=>a.category)])];
+  document.getElementById("filters").innerHTML=cats.map(c=>`<button class="filter ${c===active?"active":""}" onclick="setCat('${c.replaceAll("'","\\'")}')">${c}</button>`).join("");
+}
+function setCat(c){active=c;renderFilters();render()}
+function render(){
+  const q=document.getElementById("search").value.toLowerCase().trim();
+  const list=assets.filter(a=>(active==="Semua"||a.category===active)&&(!q||(a.name+" "+a.file+" "+a.category).toLowerCase().includes(q)));
+  document.getElementById("count").textContent=`Menampilkan ${list.length} dari ${assets.length} aset`;
+  const grid=document.getElementById("grid");
+  if(!list.length){grid.innerHTML='<div class="empty">Tidak ada aset yang cocok dengan pencarian.</div>';return}
+  grid.innerHTML=list.map(a=>`
+    <article class="card">
+      <div class="preview"><img src="${a.url}" alt="${a.name}" loading="lazy"></div>
+      <div class="body">
+        <div class="name">${a.name}</div>
+        <span class="cat">${a.category}</span>
+        <div class="url" title="${a.url}">${a.url}</div>
+        <div class="actions">
+          <button class="btn primary" onclick="copyText('${a.url.replaceAll("'","\\'")}','URL aset disalin')">🔗 Copy URL</button>
+          <button class="btn" onclick="copyText('<img src=&quot;${a.url.replaceAll("'","\\'")}&quot; alt=&quot;${a.name.replaceAll('"','&quot;')}&quot;>','HTML disalin')">💻 Copy HTML</button>
+        </div>
+      </div>
+    </article>`).join("");
+}
+async function copyText(text,msg){
+  try{await navigator.clipboard.writeText(text);alert("✓ "+msg)}catch(e){prompt("Salin teks berikut:",text)}
+}
+document.getElementById("search").addEventListener("input",render);
+load();
+</script>
 </body>
 </html>
